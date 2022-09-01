@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Clientes</title>
+</head>
+<body>
+
+<!-- ENQUANTO NO JS O VALOR DE UM INPUT É CAPTURADO POR MEIO DE UM ID, POR EXEMPLO, EM JAVA UTILIZA-SE O GETPARAMETER
+E NA HTML É UTILIZADA A PROPRIEDADE NAME (QUE SERIA O "ID" UTILIZADO PELO JS).
+
+  -->
+
+<h1>Cadastro de Clientes</h1>
+
+
+<form action="SalvarCliente" method="post">
+<fieldset>
+<legend> Dados do Cliente</legend>
+<br>
+
+<label for="nome">Nome:</label> <input type="text" name="nome" id="nome" size="45">
+<br><br>
+
+<label for="telefone">Telefone:</label><input type="tel" name="telefone" id="telefone" size="43">
+<br><br>
+
+<label for="email">E-mail:</label> <input type="email" name="email" id="email" size="45">
+<br><br>
+
+<input type="submit" value="Cadastrar Cliente"> 
+
+</fieldset>
+</form>
+
+
+</body>
+</html>
